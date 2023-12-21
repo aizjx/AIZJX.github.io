@@ -1,0 +1,60 @@
+.header {
+    /*头部*/
+    width: 100%;/*宽度*/
+    height: 150px;/*高度*/
+}
+ 
+#hi1 {
+    /*头部图片*/
+    width: 100%;/*宽度*/
+    height: 150px;/*高度*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dh ul {
+    /*导航栏*/
+    width: 1539px;
+    padding: 0px;/*内边距*/
+    height: 30px;/*高度*/
+    margin-bottom: 30px;/*外边距*/
+}
+ 
+.dh ul li {/*导航栏行的设置*/
+    height: 30px;
+    width: 20%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;
+    font: 0.9em;
+}
+ 
+.dh ul li a {/*导航栏链接设置*/
+    text-align: center;/*文本位置*/
+    color: white;
+    font-size: larger;/*字体大小*/
+    font-family: 楷体;
+    width: 100%;
+    margin: 0px;
+    text-decoration: none;/*列表样式*/
+    display: block;
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 0px solid rgb(168, 164, 172);
+}
+ 
+.dh ul li a:hover {    /*鼠标划过导航栏时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+    
+}

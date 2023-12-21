@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品分类</title>
+    <style>
+        * {
+            box-sizing: border-box;  /*宽度和高度会包括内边距和边框*/
+        }
+    
+        div.search {
+            padding: 10px 0;
+        }
+    
+        form {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;  /*设置宽度后，居中*/
+        }
+    
+        input,button {
+            border: none;   /*无边框样式；元素的总宽度和高度包括边框的宽度 */
+            outline: none;  /*无轮廓样式；轮廓是在元素周围绘制的一条线，在边框之外并且可能与其他内容重叠，以凸显元素，元素的总宽度和高度不受轮廓线宽度的影响。*/
+        }
+    
+        .search input {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
+            border: 2px solid #c5464a;
+            border-radius: 19px;   /*border-radius 属性用于向元素添加圆角边框：*/
+            background: transparent;  /*背景透明*/
+        }
+    
+        .search button {
+            height: 42px;
+            width: 42px;
+            cursor: pointer;  /*cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+            position: absolute;
+            background: #c5464a;
+            border-radius: 0 19px 19px 0;
+            width: 60px;
+            right: 0;
+        }
+        .search button:hover {
+            background-color: #c7585c;  /*点击搜索按钮时的背景颜色*/
+        }
+    
+        /* 在<button>元素后面插入内容，并设置所插入内容的样式： */
+        .search button:before {
+            content: "搜索";  /*插入的内容*/
+            font-size: 13px;  /*插入内容的字体大小*/
+            color: #F9F0DA;  /*插入内容的字体颜色*/
+        }
+    </style>
+</head>
+
+    <body>
+        <div class="search">
+            <form action="" method="post">
+                <input placeholder="请输入..." name="keyword" type="text">
+                <button type="submit"></button>
+            </form>
+        </div>
+        <!DOCTYPE html>
+        <html lang="en">
+         
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>meishi</title>
+            <link type="text/css" rel="stylesheet" href="1.css">
+        </head>
+         
+        <body>
+            <div class="header">
+                <!--头部-->
+                <img id="hi1" src="./牌子.jpg">
+            </div>
+         
+            <div class="dh">
+        
+                <ul>
+                    <li><a href="门户首页.html#">首页</a></li>
+                    <li><a href="商品分类.html#">商品分类</a></li>
+                    <li><a href="./商品详情.html">商品详情</a></li>
+                    <li><a href="用户登录.html">用户登录</a></li>
+                    <li><a href="用户注册.html">用户注册</a></li>
+                    
+                </ul>
+            </div>
+         
+            <div class="zhuti">
+                <!--主体-->
+                <div id="zhutileft">
+                    <div id="photo">
+                        <img src="煲仔饭.jpg">
+                        <img src="瓦香鸡米饭.jpg">
+                        <img src="过线米线.jpg">
+                        <img src="南昌拌粉.jpg">
+                        <img src="黄焖鸡.jpg">
+                    </div>
+                </div>
+                <div id="zhutimain">
+                    <img src="水果捞.jpg">
+                    <h4>
+                        水果捞
+                    </h4>
+                    <a
+                        href="https://post.smzdm.com/p/730781/#:~:text=%E8%AF%B4%E5%88%B0%E5%AE%9D%E9%B8%A1%E7%89%B9%E8%89%B2%E7%BE%8E%E9%A3%9F,%E3%80%81%E8%80%81%E5%8F%A4%E5%AE%B6%E7%81%AB%E9%94%85%E7%AD%89%E3%80%82">
+                        <p>
+                            水果捞是一种制作简单，而且人见人爱的甜品。尤其是小姑娘，爱吃甜食的朋友更是爱不释手呢。甜甜的水果捞，从色彩还是营养以及口味各方面来讲都是超级惹人喜爱(而且还是本店热销产品)
+                        </p>
+                    </a>
+                </div>
+                <div id="zhutiright">
+                    <ul>
+                        <li>
+                            <div id="d1">本店热销美食</div>
+                        </li>
+                        <div id="d2">
+                            <hr size="3" color="gray">
+                            <li><a href="#">煲仔饭<span>[1]</span></a></li>
+                            <li><a href="#">南昌拌粉<span>[2]</span></a></li>
+                            <li><a href="#">麻辣烫<span>[3]</span></a></li>
+                            <li><a href="#">过桥米线<span>[4]</span></a></li>
+                            <li><a href="#">水果捞<span>[5]</span></a></li>
+                            <li><a href="#">瓦香鸡米饭<span>[6]</span></a></li>
+                            <li><a href="#">兰州拉面<span>[7]</span></a></li>
+                            <li><a href="#">卤肉饭<span>[8]</span></a></li>
+                            <li><a href="#">汉堡<span>[9]</span></a></li>
+                            <li><a href="#">黄焖鸡<span>[10]</span></a></li>
+                    </ul>
+                </div>
+                <div id="bottom">
+                    <div id="meishi1">
+                        <img src="南昌拌粉.jpg">
+                        <h4>南昌拌粉</h4>
+                        <a href="https://baike.baidu.com/item/%E8%87%8A%E5%AD%90%E9%9D%A2/656612">
+                            <p>南昌米粉历史悠久，主要制作原料是优质晚米，经过浸米、磨浆、滤干、采浆等多道工序制作而成。
+                            </p>
+                        </a>
+                    </div>
+                    <div id="meishi2">
+                        <img src="黄焖鸡.jpg">
+                        <h4>黄焖鸡米饭</h4>
+                        <a href="https://baike.baidu.com/item/%E8%B1%86%E8%8A%B1%E6%B3%A1%E9%A6%8D/4626484">
+                            <p>黄焖鸡米饭又叫香辣鸡煲或浓汁香辣鸡煲饭，是鲁菜名吃，源自山东济南天桥区的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。
+                            </p>
+                        </a>
+                    </div>
+                    <div id="meishi3">
+                        <img src="过线米线.jpg">
+                        <h4>过桥米线</h4>
+                        <a href="https://baike.baidu.com/item/%E6%90%85%E5%9B%A2/1184341">
+                            <p>过桥米线是云南省滇南地区的一种特有的小吃，属滇菜系，该菜品起源于蒙自地区，是由汤料、佐料、生的猪里脊肉片、鸡脯肉片、乌鱼片及五成熟的猪腰片制作成。
+                            </p>
+                        </a>
+                    </div>
+                    <div id="meishi4">
+                        <img src="扬州拉面.jpg">
+                        <h4>兰州拉面</h4>
+                        <a href="https://baike.baidu.com/item/%E6%93%80%E9%9D%A2%E7%9A%AE">
+                            <p>以一碗面而享誉天下，以肉烂汤鲜、面质精细而蜚声中外，青海人将兰州牛肉面以兰州拉面的商标打入了全国各地，赢得了国内乃至全世界范围内食客的好评和荣誉。
+                            </p>
+                        </a>
+                    </div>
+         
+                </div>
+            </div>
+         
+            <div id="" class="footer">
+                <!--页尾-->
+                <img id="fi1" src="./b1f019b93159d5c173020777c10469a9.jpg">
+                <p>
+                    健鑫美食期待你的光临!
+                </p>
+                
+            </div>
+        </body>
+         
+        </html>
+    </body>
+
+</html>
